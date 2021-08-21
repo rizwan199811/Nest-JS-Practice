@@ -1,6 +1,6 @@
 import { Optional } from "@nestjs/common";
 import { IsIn, IsNotEmpty } from "class-validator";
-import { TaskStatus } from "../task.model";
+import { TaskStatus } from "../task.enum";
 
 export class FilterTaskDto{
     @Optional()
